@@ -13,7 +13,7 @@ import java.util.Date;
  */
 public class StudentGroup implements StudentArrayOperation {
 
-	private Student[] students;
+	private Student[] student;
 	
 	/**
 	 * DO NOT remove or change this constructor, it will be used during task check
@@ -37,7 +37,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getStudent(int index) {
 		// Add your implementation here
-		return student;
+		return students[index];
 	}
 
 	@Override
@@ -98,42 +98,42 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getByBirthDate(Date date) {
 		// Add your implementation here
-		return student;
+		return students;
 	}
 
 	@Override
 	public Student[] getBetweenBirthDates(Date firstDate, Date lastDate) {
 		// Add your implementation here
-		return student;
+		return students;
 	}
 
 	@Override
 	public Student[] getNearBirthDate(Date date, int days) {
 		// Add your implementation here
-		return student;
+		return students;
 	}
 
 	@Override
 	public int getCurrentAgeByDate(int indexOfStudent) {
 		// Add your implementation here
-		return 0;
+		return o;
 	}
 
 	@Override
 	public Student[] getStudentsByAge(int age) {
 		// Add your implementation here
-		return student;
+		return students;
 	}
 
 	@Override
 	public Student[] getStudentsWithMaxAvgMark() {
 		// Add your implementation here
-		return student;
+		return students;
 	}
 
 	@Override
 	public Student getNextStudent(Student student) {
 		// Add your implementation here
-		return student;
+		return students;
 	}
 }
